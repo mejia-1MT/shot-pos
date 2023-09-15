@@ -1,0 +1,336 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "image": "https://i.ibb.co/M6vxJjR/Iced-Coffee.png",
+      "name": "Iced Coffee",
+      "price": 120,
+      "category": "Cafe",
+      "sold": 29
+    },
+    {
+      "id": 2,
+      "image": "https://i.ibb.co/NFxjPJm/Latte-Coffe.png",
+      "name": "Latte Coffee",
+      "price": 125,
+      "category": "Cafe",
+      "sold": 20
+    },
+    {
+      "id": 3,
+      "image": "https://i.ibb.co/s5QttSv/Americano.png",
+      "name": "Americano",
+      "price": 110,
+      "category": "Cafe",
+      "sold": 15
+    },
+    {
+      "id": 4,
+      "image": "https://i.ibb.co/1G5gqn6/White-Coffe.png",
+      "name": "White Coffee",
+      "price": 110,
+      "category": "Cafe",
+      "sold": 23
+    },
+    {
+      "id": 5,
+      "image": "https://i.ibb.co/Z2YVCLF/Brown-Coffe.png",
+      "name": "Brown Coffee",
+      "price": 110,
+      "category": "Cafe",
+      "sold": 23
+    },
+    {
+      "id": 6,
+      "image": "https://i.ibb.co/YkrSwnn/Red-Eye.png",
+      "name": "Red Eye",
+      "price": 110,
+      "category": "Cafe",
+      "sold": 27
+    },
+    {
+      "id": 7,
+      "image": "https://i.ibb.co/58fspCk/Frappuccino.png",
+      "name": "Frappuccino",
+      "price": 120,
+      "category": "Premium-Cafe",
+      "sold": 23
+    },
+    {
+      "id": 8,
+      "image": "https://i.ibb.co/f9dgm7k/Mocha-w-Frappe.png",
+      "name": "Mocha Frappe",
+      "price": 150,
+      "category": "Premium-Cafe",
+      "sold": 25
+    },
+    {
+      "id": 9,
+      "image": "https://i.ibb.co/NV71B8B/Affogatto.png",
+      "name": "Affogatto",
+      "price": 150,
+      "category": "Premium-Cafe",
+      "sold": 24
+    },
+    {
+      "id": 10,
+      "image": "https://i.ibb.co/xJ00f1d/Mocha.png",
+      "name": "Mocha",
+      "price": 130,
+      "category": "Premium-Cafe",
+      "sold": 26
+    },
+    {
+      "id": 11,
+      "image": "https://i.ibb.co/G2S9ktN/Ice-Espresso.png",
+      "name": "Iced Espresso",
+      "price": 70,
+      "category": "Premium-Cafe",
+      "sold": 21
+    },
+    {
+      "id": 12,
+      "image": "https://i.ibb.co/1KJsGf8/Float-White.png",
+      "name": "Flat White",
+      "price": 110,
+      "category": "Premium-Cafe",
+      "sold": 22
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "date": "July 24, 2023",
+      "time": "05:44:29 PM",
+      "orders": [
+        {
+          "name": "White Coffee",
+          "quantity": 1,
+          "totalAmount": 110
+        },
+        {
+          "name": "Red Eye",
+          "quantity": 1,
+          "totalAmount": 110
+        },
+        {
+          "name": "Americano",
+          "quantity": 1,
+          "totalAmount": 110
+        }
+      ],
+      "total": 330,
+      "order_quantity": 3,
+      "payment_form": "Cash"
+    },
+    {
+      "id": 2,
+      "date": "July 24, 2023",
+      "time": "05:44:53 PM",
+      "orders": [
+        {
+          "name": "Affogatto",
+          "quantity": 1,
+          "totalAmount": 150
+        },
+        {
+          "name": "Red Eye",
+          "quantity": 1,
+          "totalAmount": 110
+        },
+        {
+          "name": "Americano",
+          "quantity": 1,
+          "totalAmount": 110
+        },
+        {
+          "name": "Latte Coffee",
+          "quantity": 1,
+          "totalAmount": 125
+        }
+      ],
+      "total": 495,
+      "order_quantity": 4,
+      "payment_form": "E-wallet"
+    },
+    {
+      "id": 3,
+      "date": "July 24, 2023",
+      "time": "05:44:59 PM",
+      "orders": [
+        {
+          "name": "Affogatto",
+          "quantity": 2,
+          "totalAmount": 300
+        },
+        {
+          "name": "Red Eye",
+          "quantity": 1,
+          "totalAmount": 110
+        }
+      ],
+      "total": 410,
+      "order_quantity": 3,
+      "payment_form": "Cash"
+    },
+    {
+      "id": 4,
+      "date": "July 24, 2023",
+      "time": "05:45:22 PM",
+      "orders": [
+        {
+          "name": "Americano",
+          "quantity": 1,
+          "totalAmount": 110
+        }
+      ],
+      "total": 110,
+      "order_quantity": 1,
+      "payment_form": "E-wallet"
+    },
+    {
+      "id": 5,
+      "date": "July 24, 2023",
+      "time": "05:45:28 PM",
+      "orders": [
+        {
+          "name": "Americano",
+          "quantity": 1,
+          "totalAmount": 110
+        }
+      ],
+      "total": 110,
+      "order_quantity": 1,
+      "payment_form": "Cash"
+    },
+    {
+      "id": 6,
+      "date": "July 24, 2023",
+      "time": "05:46:50 PM",
+      "orders": [
+        {
+          "name": "Iced Coffee",
+          "quantity": 1,
+          "totalAmount": 120
+        }
+      ],
+      "total": 120,
+      "order_quantity": 1,
+      "payment_form": "Cash"
+    },
+    {
+      "id": 7,
+      "date": "July 24, 2023",
+      "time": "05:47:01 PM",
+      "orders": [
+        {
+          "name": "White Coffee",
+          "quantity": 1,
+          "totalAmount": 110
+        }
+      ],
+      "total": 110,
+      "order_quantity": 1,
+      "payment_form": "E-wallet"
+    },
+    {
+      "id": 8,
+      "date": "July 24, 2023",
+      "time": "05:47:48 PM",
+      "orders": [
+        {
+          "name": "Red Eye",
+          "quantity": 1,
+          "totalAmount": 110
+        }
+      ],
+      "total": 110,
+      "order_quantity": 1,
+      "payment_form": "E-wallet"
+    },
+    {
+      "id": 9,
+      "date": "July 24, 2023",
+      "time": "05:49:21 PM",
+      "orders": [
+        {
+          "name": "Mocha",
+          "quantity": 1,
+          "totalAmount": 130
+        }
+      ],
+      "total": 130,
+      "order_quantity": 1,
+      "payment_form": "E-wallet"
+    },
+    {
+      "id": 10,
+      "date": "July 24, 2023",
+      "time": "05:49:26 PM",
+      "orders": [
+        {
+          "name": "Mocha",
+          "quantity": 1,
+          "totalAmount": 130
+        }
+      ],
+      "total": 130,
+      "order_quantity": 1,
+      "payment_form": "E-wallet"
+    },
+    {
+      "id": 11,
+      "date": "July 24, 2023",
+      "time": "08:15:25 PM",
+      "orders": [
+        {
+          "name": "White Coffee",
+          "quantity": 1,
+          "totalAmount": 110
+        },
+        {
+          "name": "Americano",
+          "quantity": 1,
+          "totalAmount": 110
+        },
+        {
+          "name": "Red Eye",
+          "quantity": 1,
+          "totalAmount": 110
+        }
+      ],
+      "total": 330,
+      "order_quantity": 3,
+      "payment_form": "E-wallet"
+    },
+    {
+      "id": 12,
+      "date": "July 24, 2023",
+      "time": "08:22:33 PM",
+      "orders": [
+        {
+          "name": "Iced Coffee",
+          "quantity": 1,
+          "totalAmount": 120
+        }
+      ],
+      "total": 120,
+      "order_quantity": 1,
+      "payment_form": "Cash"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "staff",
+      "password": "staff",
+      "role": "staff"
+    },
+    {
+      "id": 2,
+      "username": "admin",
+      "password": "admin",
+      "role": "admin"
+    }
+  ]
+}
